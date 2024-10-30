@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 Tables</title>
+
+</head>
+<body>
+
+    <table id="sampleTable">
+        <caption>
+        <strong>Marks obtained by students in various subjects</strong>
+        <details>
+            <summary>Help</summary>
+            <p>This tabluar data for students marks in Year 2024 in respective subject.</p>
+        </details>
+        </caption>
+        <thead>
+            <tr>
+                <th> English </th>
+                <th> Science </th>
+                <th> Hindi </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>46</td>
+                <td>56</td>
+                <td>66</td>
+            </tr>
+            <tr>
+                <td>86</td>
+                <td>46</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <style >
+        table#sampleTable {
+            width: 650px;
+
+            /* center align table */
+            margin: auto;
+            padding: auto;
+        }
+        table#sampleTable, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</body>
+</html>
