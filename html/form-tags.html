@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Form Tags</title>
+
+    <style>
+        #idHtmlForm {width: 400px;}
+
+        label {display: inline-block; width: inherit; margin: 5px; padding: 3px; /*border: 1px dashed black;*/}
+        label > .labelText {min-width: 100px;display: inline-block; /*border: 1px solid red;*/  }
+        label input {padding: 2px 10px;}
+    </style>
+</head>
+<body>
+<h1>HTML 5 Form Tags</h1>
+
+<form name="html_form" method="get" action="form-tags.html" id="idHtmlForm">
+
+    <label for="idFirstName" title="You have to type your first name here.">
+        <span class="labelText">First Name :</span>
+        <input type="text" id="idFirstName" accept="text/plain" name="firstName"
+               value="" placeholder="Type your first name here ...">
+    </label>
+
+    <label for="idLastName">
+        <span class="labelText">Last Name :</span>
+        <input type="text" id="idLastName" accept="text/plain" name="lastName" value=""
+               placeholder="Type your last name ...">
+    </label>
+
+    <label for="idEmail">
+        <span class="labelText" >Email :</span>
+        <input type="email" placeholder="Type your email here ..." name="email" value="" id="idEmail" >
+    </label>
+</form>
+
+</body>
+</html>
